@@ -13,7 +13,7 @@ def using_flatten(array)
 end
 
 def using_insert(array, element)
-  new_array = []
-  new_array[4] = array.insert(element)
-  return new_array 
+  if array.length = 3 
+  array.insert(element)
+  return array
 end 
