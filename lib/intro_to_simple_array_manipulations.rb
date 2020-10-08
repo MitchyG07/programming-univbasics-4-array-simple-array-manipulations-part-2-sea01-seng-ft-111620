@@ -14,6 +14,7 @@ end
 
 def using_insert(array, element)
   if array.length = 3 
-  array.insert(element)
+    array.insert(element)
+  end
   return array
 end 
