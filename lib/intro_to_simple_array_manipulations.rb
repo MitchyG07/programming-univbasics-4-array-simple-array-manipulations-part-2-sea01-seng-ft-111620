@@ -13,8 +13,5 @@ def using_flatten(array)
 end
 
 def using_insert(array, element)
-  if array.length = 3 
-    array.insert(element)
-  end
   return array
 end 
